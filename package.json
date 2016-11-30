@@ -1,0 +1,28 @@
+{
+  "name": "Webhooks-API",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "6.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --no-timeouts",
+    "nodemon": "nodemon -I -L app/bin/www"
+  },
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "nedb": "^1.8.0",
+    "require-dir": "^0.3.0",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.11.0",
+    "supertest": "^1.2.0"
+  }
+}
